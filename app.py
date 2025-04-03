@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Carregar o modelo treinado
-modelo = joblib.load(r"C:\Users\Francisco\Desktop\tcfase03\techachallent\gradient_boosting_model.pkl")
+modelo = joblib.load("gradient_boosting_model.pkl")
 
 
 st.title("Predição de Diabetes")
